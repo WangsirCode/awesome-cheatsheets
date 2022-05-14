@@ -861,6 +861,16 @@ export LESS_TERMCAP_so=$'\E[1m\E[33m\E[44m'
 "\eJ": beginning-of-line
 "\eK": end-of-line
 
+# 数值计算
+a=2
+b=3
+expr $a + $b
+expr $a - $b
+expr $a \* $b
+expr $a / $b
+expr $a % $b
+c=`expr $a + $b`
+
 
 ##############################################################################
 # References
